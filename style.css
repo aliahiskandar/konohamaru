@@ -1,0 +1,90 @@
+body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-color : #8fbc8f;
+	background-size: cover;
+	z-index: 0;
+}
+
+.wrap{
+	background-color : #ffc0ce;
+	width: 900px;
+	margin: 10px auto;
+	
+	
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	
+}
+
+/*bagian header*/
+
+.wrap .header{
+	background: #cd5c5c;
+	height: 99px;
+	padding: 2px 10px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{
+	background: #8b0000;
+}
+
+.wrap .menu ul{
+	padding: 20 px;
+	margin: 0;
+	background : #8b0000;
+	overflow: hidden;
+}
+
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+
+.clear{
+	clear: both;
+}
+
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: #FF6347;
+	float: left;	
+	width: 25%;
+	height: 100%;
+}
+
+/*akhir sidebar*/
+
+.wrap .badan .content{
+	background: #ffc0ce;
+	float: left;
+	height: 300px;
+	width: 75%;	
+}
+
+.wrap .footer{
+	width: auto;
+	padding: 10px;
+	background-color : #fa8072;
+	position : center;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	
+}
